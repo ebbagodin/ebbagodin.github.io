@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|IM+Fell+English|Sedgwick+Ave');
+
+body {
+	font-family: IM Fell English;
+}
+
+#startsida {
+	background-image: url("https://images5.alphacoders.com/311/thumb-1920-311151.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+
+.parallax {
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pheart {
+	background-image: url("http://www.magic4walls.com/wp-content/uploads/2013/11/mood-hand-girl-leaf-paper-heart-heart-love-love-green-blur-bokeh-background-wallpaper-widescreen-fullscreen-widescreen-HD-wallpapers-background-wallpaper-widescreen-fullscreen-widescreen.jpg");
+}
+
+.plove {
+	background-image: url("https://static.pexels.com/photos/40815/youth-active-jump-happy-40815.jpeg");
+}
+
+.ppride {
+	background-image: url("https://cdn.shutterstock.com/shutterstock/videos/3897515/thumb/1.jpg?i10c=img.resize(height:72)");
+}
+
+.scroll-box{
+  height:100px;
+  width: auto;
+  background-color: #e7b5ff;
+  display: block;
+}
+
+#parall{
+  color:black;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 24%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    font-family: Sedgwic Ave;
+    letter-spacing: 10px;
+}
+
+.whitebox {
+    position: absolute;
+    top: 200px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-140%);
+    padding: 30px;
+    border: 2px solid #9bc2ff;
+    font-family: Courgette;
+    color: black;
+}
+
+.navbar-inverse .navbar-brand {
+    margin-left:20px;
+}
+
+#whiteSpaceFix {
+  margin-top: -500px;
+}
+
+.picpadding {
+  padding: 10px;
+}
+
+.pridepx {
+  width: 650px
+}
